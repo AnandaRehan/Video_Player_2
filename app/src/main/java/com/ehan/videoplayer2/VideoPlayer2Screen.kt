@@ -73,6 +73,13 @@ fun VideoPlayerScreen(
             TopAppBar(
                 title = { Text("Video Player") },
                 actions = {
+                    Button(
+                        onClick = {
+                            onBack()
+                        }
+                    ) {
+                        Text("Back")
+                    }
                     IconButton(
                         onClick = {
                             pickVideoLauncher.launch(arrayOf("video/*"))
