@@ -137,3 +137,11 @@ class VideoPlayerViewModel(application: Application) : AndroidViewModel(applicat
         super.onCleared()
     }
 }
+
+data class LocalVideo(
+    val id: Long,
+    val uri: Uri,
+    val name: String,
+    val durationMs: Long,
+    val sizeBytes: Long
+)
