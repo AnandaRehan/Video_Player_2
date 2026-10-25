@@ -76,6 +76,6 @@ fun MainScreen(modifier: Modifier = Modifier) {
 @Composable
 private fun MainScreenPreview() {
     Videoplayer2Theme {
-        MainScreen()
+        VideoManagerScreen()
     }
 }
