@@ -82,7 +82,7 @@ jobs:
       - name: Upload Release APK
         uses: actions/upload-artifact@v6
         with:
-          name: template-release-apk
+          name: Video_Player_2-release-apk
           path: app/build/outputs/apk/release/*.apk
           if-no-files-found: error
           retention-days: 7
