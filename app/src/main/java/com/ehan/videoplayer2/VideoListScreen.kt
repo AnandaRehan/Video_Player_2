@@ -1,5 +1,5 @@
 
-package com.ehan.videoplater2
+package com.ehan.videoplayer2
 
 import android.Manifest
 import android.content.pm.PackageManager
