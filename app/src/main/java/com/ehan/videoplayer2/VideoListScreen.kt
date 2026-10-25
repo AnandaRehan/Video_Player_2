@@ -4,6 +4,7 @@ package com.ehan.videoplayer2
 import android.Manifest
 import android.content.pm.PackageManager
 import android.os.Build
+import android.net.Uri
 import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.foundation.clickable

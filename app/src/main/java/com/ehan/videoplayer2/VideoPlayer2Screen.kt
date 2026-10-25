@@ -32,7 +32,8 @@ import kotlinx.coroutines.launch
 )
 @Composable
 fun VideoPlayerScreen(
-    viewModel: VideoPlayerViewModel = viewModel()
+    viewModel: VideoPlayerViewModel = viewModel(),
+    onBack: () -> Unit
 ) {
     val uiState by viewModel.uiState.collectAsStateWithLifecycle()
     val context = LocalContext.current
